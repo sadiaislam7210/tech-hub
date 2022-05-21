@@ -136,7 +136,7 @@ const Home = () => {
               <div className="row pt-3">
                 <div className="col-md-6">
                   <p className="m-0">
-                    <strong>swdRana</strong>
+                    <strong>RMS.Sad</strong>
                   </p>
                   <small>Chairman & Chief Executive Officer</small>
                 </div>
@@ -152,12 +152,7 @@ const Home = () => {
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton></Modal.Header>
                 <Modal.Body>
-                  <iframe
-                    width="100%"
-                    autoplay="true"
-                    height="345"
-                    src="https://www.youtube.com/embed/452JdnsXM54?allowfullscreen=1&autoplay=1&loop=1&controls=0"
-                  ></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nne-t4CPPgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Modal.Body>
               </Modal>
             </div>

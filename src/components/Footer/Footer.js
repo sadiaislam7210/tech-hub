@@ -1,21 +1,21 @@
 import React from "react";
 import "./Footer.css";
-import { FaGithub, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="sm-footer ">
       <div className="container d-flex align-items-center ">
         <span className="ms-3">
           Copyright © {new Date().getFullYear()} | Powered by{" "}
-          <a href="https://github.com/swdrana" target="_blank" rel="noreferrer">
-            swdRana
+          <a href="https://github.com/sadiaislam7210" target="_blank" rel="noreferrer">
+            sadia
           </a>
           .
         </span>
         <p className="text-end pe-3 m-0">
           <a
             className="me-3"
-            href="https://www.facebook.com/swdrana"
+            href="https://www.facebook.com/profile.php?id=100035941325986"
             target="_blank"
             rel="noreferrer"
           >
@@ -23,15 +23,15 @@ const Footer = () => {
           </a>
           <a
             className="me-3"
-            href="https://www.youtube.com/swdrana"
+            href="https://twitter.com/SadiaIs37547263"
             target="_blank"
             rel="noreferrer"
           >
-            <FaYoutube size="25px" color="red" />
+            <FaTwitter size="25px" color="red" />
           </a>
           <a
             className="me-3"
-            href="https://www.github.com/swdrana"
+            href="https://github.com/sadiaislam7210"
             target="_blank"
             rel="noreferrer"
           >
